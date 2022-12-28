@@ -33,6 +33,7 @@ export default function Projects({ projects }) {
 
 // 빌드 타임에 호출
 export async function getStaticProps() {
+  // export async function getServerSideProps() {
   const options = {
     method: "POST",
     headers: {
@@ -42,6 +43,14 @@ export async function getStaticProps() {
       Authorization: `Bearer ${TOKEN}`,
     },
     body: JSON.stringify({
+      // filter: [
+      //   {
+      //     property: "종류",
+      //     select: {
+      //       equals: "프로젝트",
+      //     },
+      //   },
+      // ],
       sorts: [
         {
           property: "이름",
@@ -73,5 +82,6 @@ export async function getStaticProps() {
 
   return {
     props: { projects }, // will be passed to the page component as props
+    // revalidate: 1 // 데이터 변경이 있으면 갱신 1초 마다 - 갱신 주기 설정 가능
   };
 }

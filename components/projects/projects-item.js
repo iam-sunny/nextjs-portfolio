@@ -1,4 +1,5 @@
-import Image from "next/image";
+// import Image from "next/image";
+import Image from "next/legacy/image";
 
 export default function ProjectItem({ data }) {
   const title = data.properties.이름.title[0].plain_text;
@@ -38,14 +39,18 @@ export default function ProjectItem({ data }) {
   return (
     <div className="project-card">
       <Image
-        className="rounded-t-xl w-full h-3/5"
+        // className="rounded-t-xl w-full h-3/5 object-cover object-center"
         src={imgSrc}
-        width={500}
-        height={500}
         alt="cover image"
-        object-position="responsive"
-        object-fit="cover"
         quality={100}
+        width="100%"
+        height="60%"
+        layout="responsive"
+        objectFit="none"
+        // object-fit="cover"
+        // object-position="responsive"
+        // width={500}
+        // height={500}
       />
 
       <div className="flex flex-col p-4">
