@@ -13,7 +13,7 @@ export default function Projects({ projects }) {
           <title>포트폴리오</title>
           <meta name="description" content="오늘도 코딩 중" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon.png" />
         </Head>
 
         <h1 className="text-4xl font-bold sm:text-6xl">
