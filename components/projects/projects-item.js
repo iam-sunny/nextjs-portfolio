@@ -38,15 +38,16 @@ export default function ProjectItem({ data }) {
   return (
     <div className="project-card">
       <Image
-        className="rounded-t-xl"
+        className="rounded-t-xl w-full h-3/5"
         src={imgSrc}
+        width={500}
+        height={500}
         alt="cover image"
-        width={30}
-        height={30}
-        layout="responsive"
-        objectFit="cover"
+        object-position="responsive"
+        object-fit="cover"
         quality={100}
       />
+
       <div className="flex flex-col p-4">
         <h1 className="text-2xl font-bold">{title}</h1>
         <h3 className="mt-4 text-xl">{description}</h3>
