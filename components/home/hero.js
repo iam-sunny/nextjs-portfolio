@@ -6,9 +6,9 @@ export default function Hero() {
     <>
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-          안녕하세요 김성연입니다
+          안녕하세요👋
           <br className="hidden lg:inline-block" />
-          오늘도 힘찬 코딩!
+          오늘도 힘차게 코딩!
         </h1>
         <p className="mb-8 leading-relaxed">
           그림자는 얼마나 되는 그들에게 넣는 운다. 우리 곳이 꾸며 구하지
