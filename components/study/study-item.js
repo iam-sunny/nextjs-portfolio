@@ -39,7 +39,7 @@ export default function StudyItem({ data }) {
   return (
     <div className="project-card">
       <Image
-        // className="rounded-t-xl w-full h-3/5 object-cover object-center"
+        className="rounded-t-lg-xl"
         src={imgSrc}
         alt="cover image"
         quality={100}
