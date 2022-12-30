@@ -59,7 +59,7 @@ export default function StudyItem({ data }) {
         <a href={github}>깃허브 바로가기</a>
         <a href={blog}>스터디 자세히 보기</a>
         <p className="my-1 ">
-          작업기간 : {start} ~ {end} ({calculatedPeriod(start, end)}일)
+          스터디 기간 : {start} ~ {end} ({calculatedPeriod(start, end)}일)
         </p>
         <div className="flex items-start mt-2">
           {tags.map((aTag) => (
