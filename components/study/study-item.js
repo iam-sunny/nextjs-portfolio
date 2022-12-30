@@ -1,7 +1,7 @@
 // import Image from "next/image";
 import Image from "next/legacy/image";
 
-export default function ProjectItem({ data }) {
+export default function StudyItem({ data }) {
   const title = data.properties.이름.title[0].plain_text;
   const description = data.properties.설명.rich_text[0].plain_text;
   const github = data.properties.Github.url;
@@ -57,7 +57,7 @@ export default function ProjectItem({ data }) {
         <h1 className="text-2xl font-bold">{title}</h1>
         <h3 className="mt-4 text-xl">{description}</h3>
         <a href={github}>깃허브 바로가기</a>
-        <a href={blog}>프로젝트 자세히 보기</a>
+        <a href={blog}>스터디 자세히 보기</a>
         <p className="my-1 ">
           작업기간 : {start} ~ {end} ({calculatedPeriod(start, end)}일)
         </p>

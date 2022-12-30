@@ -1,7 +1,7 @@
 import Layout from "../components/layout";
 import Head from "next/head";
 import { TOKEN, DATABASE_ID } from "../config";
-import ProjectItem from "../components/projects/projects-item";
+import StudyItem from "../components/study/study-item";
 
 export default function Projects({ projects }) {
   // console.log(projects);
@@ -17,13 +17,13 @@ export default function Projects({ projects }) {
         </Head>
 
         <h1 className="text-4xl font-bold sm:text-6xl">
-          총 프로젝트 :
+          총 스터디 :
           <span className="pl-4 text-blue-500">{projects.results.length}</span>
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 py-10 m-6 gap-8 w-full">
           {projects.results.map((aProject) => (
-            <ProjectItem key={aProject.id} data={aProject} />
+            <StudyItem key={aProject.id} data={aProject} />
           ))}
         </div>
       </div>
@@ -48,7 +48,7 @@ export async function getServerSideProps() {
       filter: {
         property: "종류",
         select: {
-          equals: "프로젝트",
+          equals: "스터디",
         },
       },
       sorts: [
