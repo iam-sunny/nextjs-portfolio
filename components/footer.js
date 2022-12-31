@@ -136,18 +136,18 @@ export default function Footer() {
               >
                 <path d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"></path>
               </svg> */}
-              <span className="ml-3 text-xl">KimSY 포트폴리오</span>
+              <span className="ml-3 text-xl">Kimsy 포트폴리오</span>
             </Link>
 
             <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
               © 2022 Portfolio —
               <a
-                href="https://riyduaa.github.io/"
+                href="https://kim228sy.github.io/"
                 rel="noopener noreferrer"
                 className="text-gray-600 ml-1"
                 target="_blank"
               >
-                @riyduaa
+                @kim228sy
               </a>
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
@@ -181,7 +181,7 @@ export default function Footer() {
 
               {/* 블로그 */}
               <a
-                href="https://riyduaa.github.io/"
+                href="https://kim228sy.github.io/"
                 className="ml-3 text-gray-500"
               >
                 <svg
@@ -200,7 +200,7 @@ export default function Footer() {
 
               {/* 깃허브 */}
               <a
-                href="https://www.github.com/riyduaa/"
+                href="https://www.github.com/kim228sy/"
                 className="ml-3 text-gray-500"
               >
                 <svg
@@ -222,7 +222,7 @@ export default function Footer() {
 
               {/* 인스타그램 */}
               <a
-                href="https://www.instagram.com/riyduaa/"
+                href="https://www.instagram.com/kim228sy/"
                 className="ml-3 text-gray-500"
               >
                 <svg
