@@ -140,7 +140,8 @@ export default function Footer() {
             </Link>
 
             <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
-              © 2022 Portfolio —
+              © {new Date().getFullYear()}
+              &nbsp;Portfolio —
               <a
                 href="https://kim228sy.github.io/"
                 rel="noopener noreferrer"
