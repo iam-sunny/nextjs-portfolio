@@ -50,6 +50,12 @@ export async function getServerSideProps() {
           equals: "프로젝트",
         },
       },
+      sorts: [
+        {
+          property: "WorkPeriod",
+          direction: "descending",
+        },
+      ],
       page_size: 100,
     }),
   };

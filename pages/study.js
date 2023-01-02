@@ -9,10 +9,10 @@ export default function Projects({ projects }) {
   return (
     <Layout>
       <Head>
-       <title>포트폴리오</title>
-       <meta name="description" content="오늘도 코딩 중" />
-       <meta name="viewport" content="width=device-width, initial-scale=1" />
-       <link rel="icon" href="/favicon.png" />
+        <title>포트폴리오</title>
+        <meta name="description" content="오늘도 코딩 중" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <div className="flex flex-col items-center justify-center min-h-screen mb-10 px-10">
