@@ -64,7 +64,7 @@ export default function StudyItem({ data }) {
         <div className="flex items-start mt-2">
           {tags.map((aTag) => (
             <h1
-              className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30"
+              className="px-2 py-1 mr-2 space-x-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30"
               key={aTag.id}
             >
               {aTag.name}
