@@ -45,12 +45,12 @@ export default function Header() {
               스터디
             </Link>
 
-            <a
-              href="https://kim228sy.github.io/"
-              className="mr-5 hover:text-gray-900"
-            >
-              블로그
-            </a>
+//             <a
+//               href="https://kim228sy.github.io/"
+//               className="mr-5 hover:text-gray-900"
+//             >
+//               블로그
+//             </a>
           </nav>
           {/* 다크모드 토글 버튼 작업 */}
           <DarkModeToggleButton />
