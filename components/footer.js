@@ -182,7 +182,7 @@ export default function Footer() {
 
               {/* 블로그 */}
               <a
-                href="https://kim228sy.github.io/"
+                href="https://kim228sy.tistory.com/"
                 className="ml-3 text-gray-500"
               >
                 <svg
