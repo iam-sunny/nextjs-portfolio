@@ -6,6 +6,7 @@ export default function StudyItem({ data }) {
   const description = data.properties.설명.rich_text[0].plain_text;
   const github = data.properties.Github.url;
   const detail = data.properties.자세히.url;
+  const demo = data.properties.데모.url;
   const imgSrc = data.cover.file?.url || data.cover.external.url;
   const tags = data.properties.태그.multi_select;
   const start = data.properties.WorkPeriod.date.start;
@@ -38,26 +39,28 @@ export default function StudyItem({ data }) {
 
   return (
     <div className="project-card">
-      <Image
-        className="rounded-t-lg-xl"
-        src={imgSrc}
-        alt="cover image"
-        quality={100}
-        width="100%"
-        height="60%"
-        layout="responsive"
-        objectFit="none"
-        // object-fit="cover"
-        // object-position="responsive"
-        // width={500}
-        // height={500}
-      />
+      <a href={detail}>
+        <Image
+          className="rounded-t-lg-xl"
+          src={imgSrc}
+          alt="cover image"
+          quality={100}
+          width="100%"
+          height="60%"
+          layout="responsive"
+          objectFit="none"
+          // object-fit="cover"
+          // object-position="responsive"
+          // width={500}
+          // height={500}
+        />
+      </a>
 
       <div className="flex flex-col p-4">
         <h1 className="text-2xl font-bold">{title}</h1>
         <h3 className="mt-4 text-xl">{description}</h3>
         <a href={github}>깃허브 바로가기</a>
-        <a href={detail}>스터디 자세히 보기</a>
+        <a href={demo}>데모 보기</a>
         <p className="my-1 ">
           스터디 기간 : {start} ~ {end} ({calculatedPeriod(start, end)}일)
         </p>
