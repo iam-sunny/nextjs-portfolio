@@ -11,8 +11,12 @@ export default function Hero() {
           오늘도 힘차게 코딩!
         </h1>
         <p className="mb-8 leading-relaxed">
-          어제보다 나은 오늘을 꿈꾸고, 사람에 가치를 두며, 세상을 이롭게 만들고
-          싶은 김성연입니다.
+          {/* 어제보다 나은 오늘을 꿈꾸고, 사람에 가치를 두며, 세상을 이롭게 만들고
+          싶은 김성연입니다. */}
+          안녕하세요! 프론트엔드 개발자로서 사용자 경험을 고려한 웹을 만들기
+          위해 노력하는 김성연입니다.
+          <br />웹 개발에 대한 무한한 열정과 호기심을 가지고 있으며, 이 매력적인
+          세계에 빠져들었습니다.
         </p>
         <div className="flex justify-center">
           <Link href="/study" className="btn-project mr-5">
