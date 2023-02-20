@@ -11,9 +11,13 @@ export default function Hero() {
           오늘도 힘차게 코딩!
         </h1>
         <p className="mb-8 leading-relaxed">
-          어제보다 나은 오늘을 꿈꾸고, 사람에 가치를 두며, 세상을 이롭게 만들고 싶은 김성연입니다.
+          어제보다 나은 오늘을 꿈꾸고, 사람에 가치를 두며, 세상을 이롭게 만들고
+          싶은 김성연입니다.
         </p>
         <div className="flex justify-center">
+          <Link href="/study" className="btn-project mr-5">
+            스터디 보러가기
+          </Link>
           <Link href="/projects" className="btn-project">
             프로젝트 보러가기
           </Link>

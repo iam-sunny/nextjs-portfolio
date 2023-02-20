@@ -41,7 +41,7 @@ export default function ProjectItem({ data }) {
     <div className="project-card">
       <a href={detail}>
         <Image
-          className="rounded-t-lg-xl"
+          className="rounded-t-lg"
           src={imgSrc}
           alt="cover image"
           quality={100}

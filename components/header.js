@@ -37,12 +37,12 @@ export default function Header() {
               홈
             </Link>
 
-            <Link href="/projects" className="mr-5 hover:text-gray-900">
-              프로젝트
-            </Link>
-
             <Link href="/study" className="mr-5 hover:text-gray-900">
               스터디
+            </Link>
+
+            <Link href="/projects" className="mr-5 hover:text-gray-900">
+              프로젝트
             </Link>
 
             {/* <a
