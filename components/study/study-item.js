@@ -9,8 +9,8 @@ export default function StudyItem({ data }) {
   const demo = data.properties.데모.url;
   const imgSrc = data.cover.file?.url || data.cover.external.url;
   const tags = data.properties.태그.multi_select;
-  const start = data.properties.WorkPeriod.date.start;
-  const end = data.properties.WorkPeriod.date.end;
+  const start = data.properties.작업기간.date.start;
+  const end = data.properties.작업기간.date.end;
 
   const calculatedPeriod = (start, end) => {
     const startDateStringArray = start.split("-");

@@ -14,13 +14,13 @@ export default function Projects({ projects }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className="flex flex-col items-center justify-center min-h-screen mb-10 px-10">
+      <div className="flex flex-col items-center justify-center min-h-screen px-10 mb-10">
         <h1 className="text-4xl font-bold sm:text-6xl">
           총 프로젝트 :
           <span className="pl-4 text-blue-500">{projects.results.length}</span>
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 py-10 m-6 gap-8 w-full">
+        <div className="grid w-full grid-cols-1 gap-8 py-10 m-6 md:grid-cols-2">
           {projects.results.map((aProject) => (
             <ProjectItem key={aProject.id} data={aProject} />
           ))}
@@ -52,7 +52,7 @@ export async function getServerSideProps() {
       },
       sorts: [
         {
-          property: "WorkPeriod",
+          property: "작업기간",
           direction: "descending",
         },
       ],
