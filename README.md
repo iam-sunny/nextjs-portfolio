@@ -30,7 +30,7 @@ NEXT.JS로 만든 웹 포트폴리오
 ## 결과물
 
 Vercel - [https://nextjs-portfolio-self-sy.vercel.app/](https://nextjs-portfolio-self-sy.vercel.app/)  
-[자세히 보기](https://kim228sy.github.io/nextjs-portfolio/)
+[자세히 보기](https://iam-suuny.github.io/nextjs-portfolio/)
 
 <br>
 

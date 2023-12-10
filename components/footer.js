@@ -5,12 +5,12 @@ export default function Footer() {
     <>
       <footer className="body-font">
         {/* <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap md:text-left text-center order-first">
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+          <div className="flex flex-wrap order-first text-center md:text-left">
+            <div className="w-full px-4 lg:w-1/4 md:w-1/2">
+              <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font">
                 CATEGORIES
               </h2>
-              <nav className="list-none mb-10">
+              <nav className="mb-10 list-none">
                 <li>
                   <a className="text-gray-600 hover:text-gray-800">
                     First Link
@@ -33,11 +33,11 @@ export default function Footer() {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+            <div className="w-full px-4 lg:w-1/4 md:w-1/2">
+              <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font">
                 CATEGORIES
               </h2>
-              <nav className="list-none mb-10">
+              <nav className="mb-10 list-none">
                 <li>
                   <a className="text-gray-600 hover:text-gray-800">
                     First Link
@@ -60,11 +60,11 @@ export default function Footer() {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+            <div className="w-full px-4 lg:w-1/4 md:w-1/2">
+              <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font">
                 CATEGORIES
               </h2>
-              <nav className="list-none mb-10">
+              <nav className="mb-10 list-none">
                 <li>
                   <a className="text-gray-600 hover:text-gray-800">
                     First Link
@@ -87,15 +87,15 @@ export default function Footer() {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+            <div className="w-full px-4 lg:w-1/4 md:w-1/2">
+              <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font">
                 SUBSCRIBE
               </h2>
-              <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
-                <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+              <div className="flex flex-wrap items-end justify-center xl:flex-nowrap md:flex-nowrap lg:flex-wrap md:justify-start">
+                <div className="relative w-40 mr-2 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4">
                   <label
                     for="footer-field"
-                    className="leading-7 text-sm text-gray-600"
+                    className="text-sm leading-7 text-gray-600"
                   >
                     Placeholder
                   </label>
@@ -103,26 +103,26 @@ export default function Footer() {
                     type="text"
                     id="footer-field"
                     name="footer-field"
-                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-gray-100 bg-opacity-50 border border-gray-300 rounded outline-none focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500"
                   />
                 </div>
-                <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
+                <button className="inline-flex flex-shrink-0 px-6 py-2 text-white bg-indigo-500 border-0 rounded lg:mt-2 xl:mt-0 focus:outline-none hover:bg-indigo-600">
                   Button
                 </button>
               </div>
-              <p className="text-gray-500 text-sm mt-2 md:text-left text-center">
+              <p className="mt-2 text-sm text-center text-gray-500 md:text-left">
                 Bitters chicharrones fanny pack
-                <br className="lg:block hidden" />
+                <br className="hidden lg:block" />
                 waistcoat green juice
               </p>
             </div>
           </div>
         </div> */}
         <div className="">
-          <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+          <div className="container flex flex-col items-center px-5 py-6 mx-auto sm:flex-row">
             <Link
               href="/"
-              className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+              className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start"
             >
               {/* <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -131,27 +131,27 @@ export default function Footer() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+                className="w-10 h-10 p-2 text-white bg-indigo-500 rounded-full"
                 viewBox="0 0 24 24"
               >
                 <path d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"></path>
               </svg> */}
-              <span className="ml-3 text-xl">Kimsy 포트폴리오</span>
+              <span className="ml-3 text-xl">Sunny 포트폴리오</span>
             </Link>
 
-            <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
+            <p className="mt-4 text-sm text-gray-500 sm:ml-6 sm:mt-0">
               © {new Date().getFullYear()}
               &nbsp;Portfolio —
               <a
-                href="https://kim228sy.github.io/"
+                href="https://iam-sunny.github.io/"
                 rel="noopener noreferrer"
-                className="text-gray-600 ml-1"
+                className="ml-1 text-gray-600"
                 target="_blank"
               >
-                @kim228sy
+                @iam-sunny
               </a>
             </p>
-            <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
               {/* 페이스북 */}
               {/* <a className="text-gray-500">
                 <svg
@@ -182,7 +182,8 @@ export default function Footer() {
 
               {/* 블로그 */}
               <a
-                href="https://kim228sy.tistory.com/"
+                // href="https://iam-sunny.tistory.com/"
+                href="https://iam-sunny.github.io/"
                 className="ml-3 text-gray-500"
               >
                 <svg
@@ -201,7 +202,7 @@ export default function Footer() {
 
               {/* 깃허브 */}
               <a
-                href="https://www.github.com/kim228sy/"
+                href="https://www.github.com/iam-sunny/"
                 className="ml-3 text-gray-500"
               >
                 <svg
@@ -223,7 +224,8 @@ export default function Footer() {
 
               {/* 인스타그램 */}
               <a
-                href="https://www.instagram.com/kim228sy/"
+                // href="https://www.instagram.com/iam-sunny/"
+                href="#"
                 className="ml-3 text-gray-500"
               >
                 <svg
